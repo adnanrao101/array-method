@@ -48,20 +48,20 @@
 
 // 4. array.join(separator)
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// console.log(fruits.join(" / "))
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+console.log(fruits.join(" / "))
 
 
 //  5. array.pop()
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// fruits.pop()
-// console.log(fruits)
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+fruits.pop()
+console.log(fruits)
 
 
 //  6. array.push(value)
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// fruits.push("kiwi")
-// console.log(fruits)
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+fruits.push("kiwi")
+console.log(fruits)
 
