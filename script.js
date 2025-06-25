@@ -68,20 +68,20 @@
 
 // 7. array.shift()
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// fruits.shift()
-// console.log(fruits)
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+fruits.shift()
+console.log(fruits)
 
 
 // 8. array.unshift(value)
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// fruits.unshift("kiwi")
-// console.log(fruits)
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+fruits.unshift("kiwi")
+console.log(fruits)
 
 
 //  9. delete array[index]
 
-// let fruits = ["apple", "banana", "mango", "grapes", "orange"];
-// delete fruits[2]
-// console.log(fruits)
+let fruits = ["apple", "banana", "mango", "grapes", "orange"];
+delete fruits[2]
+console.log(fruits)
