@@ -129,3 +129,4 @@
 let nums = [5, 6, 7];
 let newArr = nums.toSpliced(1, 1, 99);
 console.log(newArr); 
+console.log(nums);
