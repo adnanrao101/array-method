@@ -104,21 +104,28 @@
 // console.log(numbers)
 
 
-// 3. flat()
+// 12. flat()
 
 // let arr = [1, [2, [3]]];
 // console.log(arr.flat(2));
 
 
-// 4. slice()
+// 13. slice()
 
 // let colors = ["red", "green", "blue"];
 // let sliced = colors.slice(1, 2);
 // console.log(sliced);
 
 
-// 5. splice()
+// 14. splice()
 
-let nums = [10, 20, 30];
-nums.splice(1, 1, 99);
-console.log(nums);
+// let nums = [10, 20, 30];
+// nums.splice(1, 1, 99);
+// console.log(nums);
+
+
+// 15. toSpliced()
+
+let nums = [5, 6, 7];
+let newArr = nums.toSpliced(1, 1, 99);
+console.log(newArr); 
