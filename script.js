@@ -112,6 +112,13 @@
 
 // 4. slice()
 
-let colors = ["red", "green", "blue"];
-let sliced = colors.slice(0, 2);
-console.log(sliced);
+// let colors = ["red", "green", "blue"];
+// let sliced = colors.slice(1, 2);
+// console.log(sliced);
+
+
+// 5. splice()
+
+let nums = [10, 20, 30];
+nums.splice(1, 1, 99);
+console.log(nums);
