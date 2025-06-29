@@ -98,7 +98,13 @@
 // 11. array.copyWithin(target, start, end)
 
 
-let numbers = ["banana", "apple", "mango", "kiwi", "orange"];
-// let numbers = [1,2,3,4,5];
-numbers.copyWithin(2,3);
-console.log(numbers)
+// let numbers = ["banana", "apple", "mango", "kiwi", "orange"];
+// // let numbers = [1,2,3,4,5];
+// numbers.copyWithin(2,3);
+// console.log(numbers)
+
+
+// 3. flat()
+
+let arr = [1, [2, [3]]];
+console.log(arr.flat(2));
