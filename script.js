@@ -106,5 +106,12 @@
 
 // 3. flat()
 
-let arr = [1, [2, [3]]];
-console.log(arr.flat(2));
+// let arr = [1, [2, [3]]];
+// console.log(arr.flat(2));
+
+
+// 4. slice()
+
+let colors = ["red", "green", "blue"];
+let sliced = colors.slice(0, 2);
+console.log(sliced);
